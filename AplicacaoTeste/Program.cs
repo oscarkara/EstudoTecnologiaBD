@@ -16,7 +16,12 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-List<Usuario> listUsuarios = new List<Usuario>();
+var listUsuarios = new List<Usuario>(
+    [
+    new Usuario("92508451037", "Oscar", new DateTime(2002,10,25)),
+    new Usuario("35746655040", "João", new DateTime(2000,2,12)),
+    new Usuario("64969891095", "Maria", new DateTime(2001,12,30))
+    ]);
 
 app.MapGet("/usuarios", () =>
 {
