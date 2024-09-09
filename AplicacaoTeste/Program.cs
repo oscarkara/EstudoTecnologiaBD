@@ -36,6 +36,7 @@ app.MapGet("/usuario/{cpf}", ([FromRoute] string cpf) =>
 
 app.MapPost("/usuario", (Usuario usuario) =>
 {
+    if (!ValidaCPF.IsCpf(usuario.cpf)) return Results.BadRequest("CPF inválido");
     var usuarioExistente = listUsuarios.Find(u => u.cpf == usuario.cpf);
     if (usuarioExistente is not null)
     {
