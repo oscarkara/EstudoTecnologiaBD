@@ -1,11 +1,8 @@
-using AplicacaoTeste;
-using AplicacaoTeste.Context;
-using AplicacaoTeste.Endpoints;
-using AplicacaoTeste.Services;
-using Microsoft.AspNetCore.Mvc;
+using AplicacaoBD;
+using AplicacaoBD.Context;
+using AplicacaoBD.Endpoints;
+using AplicacaoBD.Services;
 using Microsoft.EntityFrameworkCore;
-using Npgsql;
-using System.Data.SqlClient;
 
 var builder = WebApplication.CreateBuilder(args);
 

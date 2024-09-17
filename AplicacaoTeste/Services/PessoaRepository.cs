@@ -1,10 +1,8 @@
-﻿using AplicacaoTeste.Context;
-using AplicacaoTeste.Entities;
+﻿using AplicacaoBD.Entities;
 using Microsoft.EntityFrameworkCore;
 using Npgsql;
-using System.Transactions;
 
-namespace AplicacaoTeste.Services;
+namespace AplicacaoBD.Services;
 
 public class PessoaRepository : IPessoaRepository
 {

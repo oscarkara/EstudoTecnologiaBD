@@ -1,9 +1,9 @@
-﻿using AplicacaoTeste.Entities;
-using AplicacaoTeste.Services;
+﻿using AplicacaoBD.Entities;
+using AplicacaoBD.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.OpenApi.Models;
 
-namespace AplicacaoTeste.Endpoints;
+namespace AplicacaoBD.Endpoints;
 
 public static class PessoaEndpoints
 {

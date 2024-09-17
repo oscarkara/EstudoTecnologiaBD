@@ -1,7 +1,7 @@
-﻿using AplicacaoTeste.Entities;
+﻿using AplicacaoBD.Entities;
 using Npgsql;
 
-namespace AplicacaoTeste.Services;
+namespace AplicacaoBD.Services;
 
 public interface IPessoaRepository
 {

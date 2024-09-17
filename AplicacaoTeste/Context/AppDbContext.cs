@@ -1,8 +1,8 @@
-﻿using AplicacaoTeste.Entities;
+﻿using AplicacaoBD.Entities;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace AplicacaoTeste.Context;
+namespace AplicacaoBD.Context;
 
 public class AppDbContext : IdentityDbContext
 {
